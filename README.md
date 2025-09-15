@@ -28,4 +28,5 @@ Calculation of game duration.
 
 About the Author
 This project was developed by a passionate front-end development student as part of her learning journey. It represents a solid foundation in building interactive web applications from scratch.
+(https://sahrsalem.github.io/my-first-game/)
 
