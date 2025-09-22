@@ -29,7 +29,7 @@ body {
   width: 100%;
   box-shadow: 0 2px 5px rgba(0,0,0,0.2); 
 }
-#header button {
+.main-btn {
   padding: 12px 24px;
   font-size: 18px;
   background-color: #00c9a7;
@@ -38,13 +38,14 @@ body {
   border-radius: 8px;
   cursor: pointer;
   transition: 0.3s;
-  margin-top: 15px;
+  margin: 10px;
 }
 
-#header button:hover {
+.main-btn:hover {
   background-color: #00b49c;
   transform: scale(1.05);
 }
+
 
 #gameArea {
   width: 600px;
