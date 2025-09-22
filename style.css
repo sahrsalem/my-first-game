@@ -3,14 +3,24 @@
   padding: 0;
   box-sizing: border-box;
 }
-body {
+/*body {
   margin: 0;
   font-family: Arial, sans-serif;
   background-color: #ddd;
   display: flex;
   flex-direction: column;
   align-items: center;
+}*/
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #1e3c72, #2a5298); 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
 }
+
 
 #header {
   text-align: center;
@@ -18,6 +28,22 @@ body {
   background-color: #fff; 
   width: 100%;
   box-shadow: 0 2px 5px rgba(0,0,0,0.2); 
+}
+#header button {
+  padding: 12px 24px;
+  font-size: 18px;
+  background-color: #00c9a7;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-top: 15px;
+}
+
+#header button:hover {
+  background-color: #00b49c;
+  transform: scale(1.05);
 }
 
 #gameArea {
