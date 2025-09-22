@@ -4,6 +4,8 @@
         const paddle = document.getElementById('paddle');
         const gameArea = document.getElementById('gameArea');
         const messageBox = document.getElementById('messageBox');
+       document.getElementById("restartBtn").addEventListener("click", restartGame);
+
         
         let ballX = 290;
         let ballY = 200;
@@ -21,7 +23,7 @@
         let reactionTimeStart = 0;
         let gameStartTime = new Date().getTime();
         let isGameOver = false;
-
+        let gameStarted = false;
         function startGame() {
             setInterval(moveBall, 10);
             const randomDelay = Math.random() * 5000 + 3000;
