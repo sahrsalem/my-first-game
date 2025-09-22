@@ -114,10 +114,10 @@
         }
 
         function showMessage(message) {
-            messageBox.textContent = message;
-            messageBox.style.display = 'block';
-            messageBox.onclick = restartGame;
-        }
+    messageBox.style.display = 'none'; // نخفي الرسالة
+    document.getElementById("restartBtn").style.display = "block"; // نظهر الزر
+}
+
 
         function restartGame() {
             isGameOver = false;
